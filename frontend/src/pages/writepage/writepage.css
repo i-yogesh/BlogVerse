@@ -1,0 +1,63 @@
+.writepage {
+    padding-top: 20px;
+  }
+  .writeform{
+    position: relative;
+  }
+  .writeimage{
+    margin-left: 175px;
+    width: 73.5vw;
+    height: 275px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .writeformgroup {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    width: 25px;
+    height: 25px;
+    font-size: 50px;
+    color: #1ea295;
+    cursor: pointer;
+  }
+  
+  .input {
+    font-size: 30px;
+    padding: 20px;
+    width: 70vw;
+  }
+  
+  .input:focus {
+    outline: none;
+  }
+  
+  .text {
+    font-size: 20px;
+    height: 50vh;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border:2px solid #1ea295;
+  }
+  .title{
+    border-radius: 8px;
+    border:2px solid #1ea295;
+  }
+  .submit{
+    position: absolute;
+    left: 175px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1ea295;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+  
+ 

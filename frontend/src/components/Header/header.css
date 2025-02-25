@@ -1,0 +1,41 @@
+/* .header{
+    /* margin-top: 50px; */
+    /* border-top: 7px solid black; */
+    /* padding-top: 7px; */
+
+/* } */ 
+.h-titles{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #444;
+}
+.titlesm{
+    font-size: 25px;
+    position: absolute;
+    top: 12%;
+    font-weight: 300;
+    color: white;
+    z-index: 5;
+    font-family: 'Open Sans', sans-serif;
+}
+.titlebg{
+    position: absolute;
+    top: 18%;
+    font-size: 55px;
+    color: white;
+    font-weight: 400;
+    z-index: 5;
+    font-family: 'Open Sans', sans-serif;
+}
+.background{
+    background: rgb(97,112,112);
+background: linear-gradient(175deg, rgba(97,112,112,1) 100%, rgba(27,145,134,1) 100%);
+box-shadow: 0 0 10px black;
+}
+.background>img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    opacity: 0.6;
+}

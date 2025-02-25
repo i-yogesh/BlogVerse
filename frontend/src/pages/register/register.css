@@ -1,0 +1,68 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    position: relative;
+  }
+  .registerform{
+    position: absolute;
+    border: 2px solid #1ea295;
+    padding: 50px 50px;
+    border-radius: 8px;
+    padding-top: 30px;
+    top: 85px;
+  }
+  .registertitle {
+    position: absolute;
+    font-size: 50px;
+    top: 35px;
+    color: #1ea295;
+  }
+  
+  .registerform {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registerform > label {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .registerinput {
+    padding: 10px;
+    background-color: white;
+    border: 1.5px solid #1ea295;
+    border-radius: 4px;
+  }
+  
+  .registerbtn {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #1ea295;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .registerbtn:disabled{
+    cursor: not-allowed;
+    background-color: rgb(252, 173, 173);
+  }
+  
+  .registerlogbtn {
+    color: #1ea295;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .Error{
+    position: absolute;
+    bottom: 50px;
+    color: red;
+  }

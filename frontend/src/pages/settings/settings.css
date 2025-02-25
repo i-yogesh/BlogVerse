@@ -1,0 +1,85 @@
+.settings {
+    display: flex;
+  }
+  
+  .settingswrapper {
+    flex: 9;
+    padding: 20px;
+  }
+  
+  .settingstitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .update {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #1ea295;
+  }
+  
+  .delete {
+    color: red;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .settingsform {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+  }
+  .ppsettings {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .ppsettings > img {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .ppsettingsicon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+   background-color: #1ea295;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .settingsform > label {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .settingsform > input {
+    margin: 10px 0;
+    height: 30px;
+    width: 50vw;
+   border: 1px solid #1ea295;
+   border-radius: 3px;
+  }
+  
+  .settingssubmit{
+      width: 150px;
+      align-self: center;
+      border: none;
+      border-radius: 10px;
+      color: white;
+      background-color: #1ea295;
+      padding: 10px;
+      margin-top: 20px;
+      cursor: pointer;
+  }
+  input:focus{
+outline: #1ea295;
+  }
