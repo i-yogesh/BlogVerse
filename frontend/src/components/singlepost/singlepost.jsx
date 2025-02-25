@@ -14,7 +14,7 @@ const Singlepost = () => {
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
   const [updateMode, setUpdateMode] = useState(false);
-  const PF = "http://localhost:5000/images/";
+  const PF = "https://blogverse-6c6f.onrender.com/images/";
   console.log(user);
   useEffect(() => {
     const getpost = async () => {

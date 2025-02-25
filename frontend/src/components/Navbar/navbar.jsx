@@ -11,7 +11,8 @@ import { Context } from '../../Context/Context';
 
 const Navbar = () => {
   const {user,dispatch}=useContext(Context);
-  const PF = "http://localhost:5000/images/"
+  // const PF = "http://localhost:5000/images/"
+  const PF = "https://blogverse-6c6f.onrender.com/images/"
   const handleLogout= ()=>{
       dispatch({type:"LOGOUT"});
       window.location.replace("/login");

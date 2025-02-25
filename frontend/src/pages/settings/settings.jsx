@@ -12,10 +12,10 @@ const Settings = () => {
   const [success, setSuccess] = useState(false);
   // const [password, setPassword] = useState("");
 
-  const PF = "http://localhost:5000/images/"
+  const PF = "https://blogverse-6c6f.onrender.com/images/"
   const handleDelete=async ()=>{
     try {
-      await axios.delete(`/users/${user._id}`,{data:{username:user.username}});
+      await axios.delete(`/api/users/${user._id}`,{data:{username:user.username}});
       dispatch({type:"LOGOUT"});
       window.location.replace("/register");
     } catch (err) {
@@ -41,7 +41,7 @@ const Settings = () => {
       } catch (err) {}
     }
     try {
-      const res = await axios.put("/users/" + user._id, updatedUser);
+      const res = await axios.put("/api/users/" + user._id, updatedUser);
       setSuccess(true);
       dispatch({ type: "UPDATE_SUCCESS", payload: res.data });
     } catch (err) {

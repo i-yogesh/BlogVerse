@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 // import user from "../../../../API/models/user";
 import { Context } from "../../Context/Context";
 const Post = ({ post }) => {
-  const PF = "http://localhost:5000/images/";
+  // const PF = "http://localhost:5000/images/";
+  const PF = "https://blogverse-6c6f.onrender.com/images/";
   const { user } = useContext(Context);
   return (
     <div className="post">
